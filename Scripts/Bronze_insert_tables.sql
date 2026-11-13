@@ -1,4 +1,7 @@
-
+/*
+ here l am loading all table at bronze schema and check if there error happend while l am loading
+and check the exact time that each table taken to load and all bronze layer taken to load
+*/
 
 create or alter procedure bronze.load_bronze_layer AS
 begin
