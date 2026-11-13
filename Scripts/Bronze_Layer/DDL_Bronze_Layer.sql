@@ -1,3 +1,6 @@
+/*
+   here l am Create a structure tables for all table in my project to load it if not exist in bronze schema
+*/
 if OBJECT_ID('bronze.crm_cust_info','U') is NOT Null
    drop table bronze.crm_cust_info
 create table bronze.crm_cust_info(
